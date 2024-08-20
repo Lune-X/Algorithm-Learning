@@ -1,11 +1,10 @@
-package com.xyc;
+package com.xyc.sortAlgorithm;
 
 import java.util.Scanner;
 
 public class BubbleSort {
 
     public static void bubbleSort(int[] array){
-        System.out.println("array的长度：" + array.length);
         for(int i = 0; i < array.length - 1; i++){
             for(int j = 0; j < array.length - 1 - i; j++){
                 if(array[j] > array[j+1]){
