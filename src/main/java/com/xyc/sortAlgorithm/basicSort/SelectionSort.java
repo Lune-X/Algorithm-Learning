@@ -13,7 +13,7 @@ public class SelectionSort {
         for(int i = 0;i < len - 1;i++){
             // 假设当前的元素是最小值
             int minIndex = i;
-            // 从i+1位置开始，找到剩余未排序部分的最小值
+            // 从 i+1 位置开始，找到剩余未排序部分的最小值
             for(int j = i + 1;j < len ;j++){
                 if(array[j] < array[minIndex]){
                     minIndex = j; // 记录最小值的索引
