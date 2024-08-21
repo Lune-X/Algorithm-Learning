@@ -1,4 +1,4 @@
-package com.xyc.sortAlgorithm;
+package com.xyc.sortAlgorithm.basicSort;
 
 import java.util.Scanner;
 
