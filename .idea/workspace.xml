@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/basicSort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/basicSort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/advancedSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/advancedSort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +63,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="GPTAPIService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyc.GPTAPIService" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xyc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.sortAlgorithm.basicSort.InsertSort" />
-      <module name="Algorithm-Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyc.sortAlgorithm.basicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.sortAlgorithm.advancedSort.MergeSort" />
+      <module name="Algorithm-Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyc.sortAlgorithm.advancedSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyc.sortAlgorithm.basicSort.SelectionSort" />
       <module name="Algorithm-Learning" />
@@ -116,12 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.Test" />
+      <module name="Algorithm-Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GPTAPIService" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +155,17 @@
       <workItem from="1724120456628" duration="3453000" />
       <workItem from="1724211025326" duration="5943000" />
       <workItem from="1724225029202" duration="14000" />
-      <workItem from="1724230771963" duration="2492000" />
+      <workItem from="1724230771963" duration="4203000" />
+      <workItem from="1724236876948" duration="597000" />
+      <workItem from="1724292271455" duration="2697000" />
+      <workItem from="1724381378015" duration="3846000" />
+      <workItem from="1724407711591" duration="11000" />
+      <workItem from="1724555492797" duration="20000" />
+      <workItem from="1724560266348" duration="116000" />
+      <workItem from="1724560976975" duration="781000" />
+      <workItem from="1724565993716" duration="1554000" />
+      <workItem from="1724659048836" duration="189000" />
+      <workItem from="1724725058097" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -171,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724222149401</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DAY THREE &#10;更新了GPT API调用">
+      <created>1724233328497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724233328497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +224,18 @@
     <MESSAGE value="DAY ONE LEARNING" />
     <MESSAGE value="DAY TWO LEARNING&#10;update InsertSort" />
     <MESSAGE value="DAY THREE LEARNING&#10;update SelectionSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY THREE LEARNING&#10;update SelectionSort" />
+    <MESSAGE value="DAY THREE &#10;更新了GPT API调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY THREE &#10;更新了GPT API调用" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xyc/Test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
