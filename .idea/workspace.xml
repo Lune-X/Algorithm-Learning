@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/advancedSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/advancedSort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +163,7 @@
       <workItem from="1724560976975" duration="781000" />
       <workItem from="1724565993716" duration="1554000" />
       <workItem from="1724659048836" duration="189000" />
-      <workItem from="1724725058097" duration="2979000" />
+      <workItem from="1724725058097" duration="6442000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724233328497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DAY FOUR Algorithm Learning&#10;Merge Sort">
+      <created>1724744310177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724744310177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +230,8 @@
     <MESSAGE value="DAY TWO LEARNING&#10;update InsertSort" />
     <MESSAGE value="DAY THREE LEARNING&#10;update SelectionSort" />
     <MESSAGE value="DAY THREE &#10;更新了GPT API调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY THREE &#10;更新了GPT API调用" />
+    <MESSAGE value="DAY FOUR Algorithm Learning&#10;Merge Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY FOUR Algorithm Learning&#10;Merge Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
