@@ -2,6 +2,10 @@ package com.xyc.sortAlgorithm.advancedSort;
 
 import java.util.Scanner;
 
+/**
+ * 原理：通过将数组递归地分成两半，分别进行排序，然后再将排序好的部分合并成一个有序的数组。
+ */
+
 public class MergeSort {
 
     // 递归将原数组分成大小为1的小数组，然后进行排序
