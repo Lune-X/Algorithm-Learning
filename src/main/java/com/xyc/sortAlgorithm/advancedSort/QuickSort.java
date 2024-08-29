@@ -29,10 +29,10 @@ public class QuickSort {
         int r = right;
 
         while(l < r){
-            while(l < r && array[r] >= pivot) { //找到右子数组中比基准小的数
+            while(l < r && array[r] >= pivot) { //从右往左找到比基准小的数
                 r--;
             }
-            while(l < r && array[l] <= pivot){ //找到左子数组中比基准小的数
+            while(l < r && array[l] <= pivot){ //从左往右找到比基准小的数
                 l++;
             }
             swap(array, l, r);
