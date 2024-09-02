@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="DAY SIX Algorithm Learning&#10;update Array and List learning materials">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/arrayAndLinkedList/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/arrayAndLinkedList/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/arrayAndLinkedList/MyLinkedList.java" afterDir="false" />
+    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/stackAndQueue/MyDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/stackAndQueue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/stackAndQueue/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/advancedSort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/sortAlgorithm/advancedSort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/ChatGPT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2kjhM8AwtGlS2Vo47QjSVMmsA6x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,13 +66,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyLinkedList">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.sortAlgorithm.advancedSort.MergeSort" />
+  <component name="RunManager" selected="Application.MyDeque">
+    <configuration name="ChatGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.ChatGPT" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyc.sortAlgorithm.advancedSort.*" />
+          <option name="PATTERN" value="com.xyc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,25 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.arrayAndLinkedList.MyArray" />
+    <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.stackAndQueue.MyDeque" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyc.arrayAndLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.arrayAndLinkedList.MyArrayList" />
-      <module name="Algorithm-Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyc.arrayAndLinkedList.*" />
+          <option name="PATTERN" value="com.xyc.stackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.sortAlgorithm.advancedSort.QuickSort" />
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.stackAndQueue.MyQueue" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyc.sortAlgorithm.advancedSort.*" />
+          <option name="PATTERN" value="com.xyc.stackAndQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.stackAndQueue.MyStack" />
+      <module name="Algorithm-Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyc.stackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyDeque" />
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.ChatGPT" />
         <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.MyArrayList" />
-        <item itemvalue="Application.MyArray" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,12 @@
       <workItem from="1724754028819" duration="6000" />
       <workItem from="1724811852493" duration="1749000" />
       <workItem from="1724827581215" duration="8435000" />
-      <workItem from="1724898759504" duration="10156000" />
+      <workItem from="1724898759504" duration="10311000" />
+      <workItem from="1724914877472" duration="595000" />
+      <workItem from="1724927098554" duration="128000" />
+      <workItem from="1724986357922" duration="2204000" />
+      <workItem from="1725011858195" duration="616000" />
+      <workItem from="1725243695185" duration="3762000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -231,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724841097110</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DAY SIX Algorithm Learning&#10;update Array and List learning materials">
+      <created>1724914081540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724914081540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

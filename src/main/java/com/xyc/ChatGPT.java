@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class ChatGPT {
 
     private static final String API_KEY = "2241a291e50d455a8e425bd205d1907c";
     private static final String GPT_API_URL = "https://api.aimlapi.com/chat/completions";
@@ -46,7 +46,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main mainApp = new Main();
+        ChatGPT chatGPTApp = new ChatGPT();
         Scanner scanner = new Scanner(System.in);
 
         // 创建一个列表来维护对话历史
@@ -72,7 +72,7 @@ public class Main {
                 conversation.add(userMessage);
 
                 // 调用封装的API调用方法
-                String gptResponse = mainApp.getGPTResponse(conversation);
+                String gptResponse = chatGPTApp.getGPTResponse(conversation);
                 System.out.println("GPT的回答: " + gptResponse);
 
                 // 将GPT的回复添加到对话中
