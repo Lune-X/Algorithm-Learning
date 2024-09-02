@@ -1,6 +1,5 @@
 # 					Algorithm Learning outcomes
 
-[TOC]
 
 ## Day1: Bubble Sort——冒泡排序
 
