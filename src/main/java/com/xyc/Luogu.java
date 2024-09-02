@@ -2,7 +2,7 @@ package com.xyc;
 
 import java.util.Scanner;
 
-public class Test {
+public class Luogu {
     /**
      * 递归应用 —— 求次方
      * @param a 底数
