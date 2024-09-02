@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +176,7 @@
       <workItem from="1725011858195" duration="616000" />
       <workItem from="1725243695185" duration="3990000" />
       <workItem from="1725247870921" duration="333000" />
-      <workItem from="1725248502433" duration="5038000" />
+      <workItem from="1725248502433" duration="5466000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -259,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725248175852</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="DAY SEVEN Algorithm Learning&#10;update NOIP 2015 金币 solution">
+      <created>1725258776541</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725258776541</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +291,7 @@
     <MESSAGE value="DAY SIX Algorithm Learning&#10;update Array and List learning materials" />
     <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update Stack / Queue / Deque materials" />
     <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY SEVEN Algorithm Learning&#10;update README" />
+    <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update NOIP 2015 金币 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY SEVEN Algorithm Learning&#10;update NOIP 2015 金币 solution" />
   </component>
 </project>
