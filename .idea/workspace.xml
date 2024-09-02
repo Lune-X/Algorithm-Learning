@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/stackAndQueue/MyDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/stackAndQueue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/stackAndQueue/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/ChatGPT.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +174,7 @@
       <workItem from="1724927098554" duration="128000" />
       <workItem from="1724986357922" duration="2204000" />
       <workItem from="1725011858195" duration="616000" />
-      <workItem from="1725243695185" duration="3762000" />
+      <workItem from="1725243695185" duration="3990000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -245,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724914081540</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DAY SEVEN Algorithm Learning&#10;update Stack / Queue / Deque materials">
+      <created>1725247673947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725247673947</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +273,8 @@
     <MESSAGE value="DAY FOUR Algorithm Learning&#10;update Merge Sort" />
     <MESSAGE value="DAY FIVE Algorithm Learning&#10;update Quick Sort and relative README.md" />
     <MESSAGE value="DAY SIX Algorithm Learning&#10;update Array and List learning materials" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY SIX Algorithm Learning&#10;update Array and List learning materials" />
+    <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update Stack / Queue / Deque materials" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY SEVEN Algorithm Learning&#10;update Stack / Queue / Deque materials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
