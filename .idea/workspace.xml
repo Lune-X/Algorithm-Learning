@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="" />
+    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +64,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyDeque">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ChatGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyc.ChatGPT" />
       <module name="Algorithm-Learning" />
@@ -80,19 +84,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xyc.stackAndQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.arrayAndLinkedList.MyLinkedList" />
-      <module name="Algorithm-Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyc.arrayAndLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.Test" />
+      <module name="Algorithm-Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MyDeque" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.ChatGPT" />
-        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +179,8 @@
       <workItem from="1724986357922" duration="2204000" />
       <workItem from="1725011858195" duration="616000" />
       <workItem from="1725243695185" duration="3990000" />
+      <workItem from="1725247870921" duration="333000" />
+      <workItem from="1725248502433" duration="5038000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -246,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725247673947</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DAY SEVEN Algorithm Learning&#10;update README">
+      <created>1725248175852</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725248175852</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,17 +287,7 @@
     <MESSAGE value="DAY FIVE Algorithm Learning&#10;update Quick Sort and relative README.md" />
     <MESSAGE value="DAY SIX Algorithm Learning&#10;update Array and List learning materials" />
     <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update Stack / Queue / Deque materials" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY SEVEN Algorithm Learning&#10;update Stack / Queue / Deque materials" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/xyc/Test.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY SEVEN Algorithm Learning&#10;update README" />
   </component>
 </project>
