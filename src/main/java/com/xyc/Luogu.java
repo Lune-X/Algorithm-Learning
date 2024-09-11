@@ -268,6 +268,32 @@ public class Luogu {
         sc.close();
     }
 
+    /**
+     * [NOIP2005 普及组] 陶陶摘苹果
+     * @return
+     * @throws IOException
+     */
+    public static int apple(){
+        int count = 0;
+        Scanner sc = new Scanner(System.in);
+        int[] dis = new int[10];
+        System.out.println("请输入10个100~200之间数字（代表苹果到地面的距离）: ");
+
+        for (int i = 0; i < 10; i++) {
+            dis[i] = sc.nextInt();
+        }
+
+        System.out.println("请输入一个100~120之间的数字(代表手伸直的时候能够达到的最大高度): ");
+        int hand = sc.nextInt();
+
+        for (int i = 0; i < 10; i++) {
+            if (hand + 30 - dis[i] >= 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] args) throws IOException {
         //System.out.println("3的2次方: " + power(3, 2));
 
@@ -289,6 +315,11 @@ public class Luogu {
 
         //System.out.println(inverse());
 
-        ant();
+        //ant();
+
+        System.out.println(apple());
+
     }
 }
+
+

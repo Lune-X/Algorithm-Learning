@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/hashTable/MyMap.java" afterDir="false" />
+    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="Day nine&#10;update 新的一些练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" afterDir="false" />
     </list>
@@ -183,6 +182,11 @@
       <workItem from="1725248502433" duration="14677000" />
       <workItem from="1725330184295" duration="13272000" />
       <workItem from="1725433379900" duration="5731000" />
+      <workItem from="1725447824695" duration="123000" />
+      <workItem from="1725516172603" duration="2476000" />
+      <workItem from="1725594475686" duration="1729000" />
+      <workItem from="1725934937582" duration="2288000" />
+      <workItem from="1725962244142" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -296,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725347900492</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Day nine&#10;update 新的一些练习">
+      <created>1725447932254</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725447932254</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +340,7 @@
     <MESSAGE value="DAY SEVEN Algorithm Learning&#10;update NOIP 2016 买铅笔&#10;       P1421 小玉买文具&#10;       solution" />
     <MESSAGE value="Change name" />
     <MESSAGE value="Day Eight &#10;洛谷题单 1.1 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day Eight &#10;洛谷题单 1.1 完成" />
+    <MESSAGE value="Day nine&#10;update 新的一些练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day nine&#10;update 新的一些练习" />
   </component>
 </project>
