@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="Day nine&#10;update 新的一些练习">
+    <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" afterDir="false" />
     </list>
@@ -187,6 +187,10 @@
       <workItem from="1725594475686" duration="1729000" />
       <workItem from="1725934937582" duration="2288000" />
       <workItem from="1725962244142" duration="644000" />
+      <workItem from="1726020998291" duration="357000" />
+      <workItem from="1726041634510" duration="1275000" />
+      <workItem from="1726134960268" duration="197000" />
+      <workItem from="1726208554896" duration="11561000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -307,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725447932254</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="None">
+      <created>1726021055552</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726021055552</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +352,7 @@
     <MESSAGE value="Change name" />
     <MESSAGE value="Day Eight &#10;洛谷题单 1.1 完成" />
     <MESSAGE value="Day nine&#10;update 新的一些练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day nine&#10;update 新的一些练习" />
+    <MESSAGE value="None" />
+    <option name="LAST_COMMIT_MESSAGE" value="None" />
   </component>
 </project>
