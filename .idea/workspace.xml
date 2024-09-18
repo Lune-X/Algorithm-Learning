@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Part1_1从零开始.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Part1_2数组基础.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Part1_3字符串基础.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/Luogu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Luogu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/intellijProject/Algorithm-Learning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/intellijProject/Algorithm-Learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Luogu">
     <configuration name="ChatGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyc.ChatGPT" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyc.*" />
+          <option name="PATTERN" value="com.xyc.competition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="Luogu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.Luogu" />
+      <option name="MAIN_CLASS_NAME" value="com.xyc.competition.Luogu" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyc.*" />
+          <option name="PATTERN" value="com.xyc.competition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,7 +193,8 @@
       <workItem from="1726020998291" duration="357000" />
       <workItem from="1726041634510" duration="1275000" />
       <workItem from="1726134960268" duration="197000" />
-      <workItem from="1726208554896" duration="11561000" />
+      <workItem from="1726208554896" duration="12064000" />
+      <workItem from="1726653477820" duration="2560000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -318,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726021055552</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="DAY TEN">
+      <created>1726222446637</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726222446637</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +364,7 @@
     <MESSAGE value="Day Eight &#10;洛谷题单 1.1 完成" />
     <MESSAGE value="Day nine&#10;update 新的一些练习" />
     <MESSAGE value="None" />
-    <option name="LAST_COMMIT_MESSAGE" value="None" />
+    <MESSAGE value="DAY TEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY TEN" />
   </component>
 </project>
