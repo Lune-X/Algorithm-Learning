@@ -89,6 +89,9 @@ public class Luogu {
         //System.out.println("总共获得的金币数: " + calculateCoins(6));
 
         //ant();
+
+
+
     }
 }
 
