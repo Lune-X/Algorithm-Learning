@@ -1,8 +1,8 @@
 package com.xyc.competition;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
 
 /**
@@ -39,7 +39,6 @@ public class Part1_3字符串基础 {
     /**
      * P5015 [NOIP2018 普及组] 标题统计
      * 凯凯刚写了一篇美妙的作文，请问这篇作文的标题中有多少个字符？ 注意：标题中可能包含大、小写英文字母、数字字符、空格和换行符。统计标题字符数时，空格和换行符不计算在内。
-     * @param
      */
     public static int calculateTitle(){
         Scanner sc = new Scanner(System.in);
@@ -66,7 +65,7 @@ public class Part1_3字符串基础 {
      * P1055 [NOIP2008 普及组] ISBN 号码
      *
      */
-    public static void isbnnumber(){
+    public static void isbnNumber(){
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入识别的ISBN号码: ");
 
@@ -266,11 +265,87 @@ public class Part1_3字符串基础 {
         System.out.println(largestNumber);
     }
 
+    /**
+     * P5587 打字练习
+     */
+    public static int practice(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入范文: ");
+        ArrayList<String> modelText = new ArrayList<>();
+        ArrayList<String> userInput = new ArrayList<>();
+
+        //读取范文
+        while (true) {
+            String s = sc.nextLine();
+            if (s.equals("EOF")) {
+                break;
+            }
+            modelText.add(s);
+        }
+
+        //读取输入
+        System.out.println("请输入R君的输入: ");
+        while (true) {
+            String o = sc.nextLine();
+            if (o.equals("EOF")) {
+                break;
+            }
+            userInput.add(processInput(o)); // 处理退格键的输入
+        }
+
+        //读取花费的时间
+        int time = sc.nextInt();
+
+        //比较行数取最小值
+        int count = 0;
+        int line = Math.min(modelText.size(), userInput.size());
+
+        for (int i = 0; i < line; i++) {
+            String model = modelText.get(i);
+            String input = userInput.get(i);
+            count += countCorrectChars(model, input);
+        }
+
+        // 计算KPM
+        int kpm = (int) Math.round((count * 60.0) / time);
+
+        return kpm;
+    }
+
+    //逐位比较，统计正确的字符
+    public static int countCorrectChars(String model, String input) {
+        int countCorrectChars = 0;
+
+        int len = Math.min(model.length(), input.length());
+        for (int i = 0; i < len; i++) {
+            if (model.charAt(i) == input.charAt(i)) {
+                countCorrectChars++;
+            }
+        }
+
+        return countCorrectChars;
+    }
+
+    // 处理退格键，模拟删除字符的操作
+    private static String processInput(String input) {
+        StringBuilder processed = new StringBuilder();
+        for (char ch : input.toCharArray()) {
+            if (ch == '<') {
+                if (processed.length() > 0) {
+                    processed.deleteCharAt(processed.length() - 1); // 模拟退格
+                }
+            } else {
+                processed.append(ch); // 正常字符添加
+            }
+        }
+        return processed.toString();
+    }
+
 
     public static void main(String[] args) {
         //System.out.println(calculateTitle());
 
-        //isbnnumber();
+        //isbnNumber();
 
         //System.out.println(wordsCount());
 
@@ -278,7 +353,9 @@ public class Part1_3字符串基础 {
 
         //number();
 
-        test();
+        //test();
+
+        System.out.println(practice());
     }
 
 }
