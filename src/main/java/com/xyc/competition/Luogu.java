@@ -64,7 +64,7 @@ public class Luogu {
             int latest = 0;   // 最晚掉落时间
 
             for (int ant : ants) {
-                // 计算每只蚂蚁距离左右两端的距离
+                //计算每只蚂蚁距离左右两端的距离
                 int toLeft = ant; // 距离左端的距离
                 int toRight = l - ant; // 距离右端的距离
 
@@ -89,8 +89,6 @@ public class Luogu {
         //System.out.println("总共获得的金币数: " + calculateCoins(6));
 
         //ant();
-
-
 
     }
 }

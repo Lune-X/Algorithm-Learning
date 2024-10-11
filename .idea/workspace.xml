@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee0fb54-5478-445a-be8e-55623ba0d24a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode/codebase-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/MyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/usaco/p1_2024/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyc/usaco/p2_2024/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Part1_3字符串基础.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Part1_3字符串基础.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Luogu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyc/competition/Luogu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,49 +59,36 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/intellijProject/Algorithm-Learning&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Downloads/《逃生片场》（校对版全本）作者：豪饮地沟油.txt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Part1_3字符串基础">
-    <configuration name="Luogu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.competition.Luogu" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intellijProject\Algorithm-Learning\src\main\java\com\xyc\competition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyString">
+    <configuration name="ChatGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.ChatGPT" />
       <module name="Algorithm-Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyc.competition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.stackAndQueue.MyDeque" />
-      <module name="Algorithm-Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyc.stackAndQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyc.stackAndQueue.MyQueue" />
-      <module name="Algorithm-Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyc.stackAndQueue.*" />
+          <option name="PATTERN" value="com.xyc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.MyString" />
+      <module name="Algorithm-Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Part1_3字符串基础" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyc.competition.Part1_3字符串基础" />
       <module name="Algorithm-Learning" />
@@ -129,12 +135,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.xyc.usaco.p2_2024.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyc.usaco.p2_2024.Main" />
+      <module name="Algorithm-Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyc.usaco.p2_2024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyString" />
+        <item itemvalue="Application.com.xyc.usaco.p2_2024.Main" />
+        <item itemvalue="Application.ChatGPT" />
         <item itemvalue="Application.Part1_3字符串基础" />
-        <item itemvalue="Application.Luogu" />
-        <item itemvalue="Application.MyDeque" />
-        <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.MyStack" />
       </list>
     </recent_temporary>
@@ -193,7 +212,23 @@
       <workItem from="1726208554896" duration="12064000" />
       <workItem from="1726653477820" duration="3177000" />
       <workItem from="1726716834053" duration="19220000" />
-      <workItem from="1727058511851" duration="8302000" />
+      <workItem from="1727058511851" duration="10288000" />
+      <workItem from="1727077116203" duration="5000" />
+      <workItem from="1727077126867" duration="757000" />
+      <workItem from="1727077895795" duration="24000" />
+      <workItem from="1727077931081" duration="5691000" />
+      <workItem from="1727087284438" duration="757000" />
+      <workItem from="1727174843649" duration="54000" />
+      <workItem from="1727175027412" duration="642000" />
+      <workItem from="1727233676466" duration="472000" />
+      <workItem from="1727236164406" duration="3151000" />
+      <workItem from="1727318575825" duration="615000" />
+      <workItem from="1728356061291" duration="3441000" />
+      <workItem from="1728440795216" duration="612000" />
+      <workItem from="1728529419606" duration="1273000" />
+      <workItem from="1728554051086" duration="2116000" />
+      <workItem from="1728613781606" duration="3856000" />
+      <workItem from="1728628018340" duration="2052000" />
     </task>
     <task id="LOCAL-00001" summary="add a println">
       <created>1723804513846</created>
@@ -342,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726743450496</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="DAY Eleven&#10;Part1.3 字符串基础&#10;Arraylist 以及 StringBuilder使用">
+      <created>1727072320391</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727072320391</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +422,7 @@
     <MESSAGE value="DAY TEN" />
     <MESSAGE value="重新排版" />
     <MESSAGE value="DAY TEN &#10;Part1.3 字符串基础&#10;String compareTo方法 和 Array.sort()方法使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAY TEN &#10;Part1.3 字符串基础&#10;String compareTo方法 和 Array.sort()方法使用" />
+    <MESSAGE value="DAY Eleven&#10;Part1.3 字符串基础&#10;Arraylist 以及 StringBuilder使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY Eleven&#10;Part1.3 字符串基础&#10;Arraylist 以及 StringBuilder使用" />
   </component>
 </project>
